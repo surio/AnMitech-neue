@@ -1,0 +1,48 @@
+{
+"code": "spearhead",
+"creativeinventory": { "general": ["*"], "tonwexp": ["*"]},
+"variantgroups": [
+{ "code": "material", "states": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ]}
+],
+"shapeByType": {
+		"spearhead-copper": { "base": "tonwexp:item/head/spearbronzehead" },
+		"spearhead-tinbronze": { "base": "tonwexp:item/head/spearbronzehead" },
+		"spearhead-bismuthbronze": { "base": "tonwexp:item/head/spearbronzehead" },
+		"spearhead-blackbronze": { "base": "tonwexp:item/head/spearbronzehead" },
+		"spearhead-iron": { "base": "tonwexp:item/head/spearironhead" },
+		"spearhead-meteoriciron": { "base": "tonwexp:item/head/spearmeteorhead" },
+		"spearhead-steel": { "base": "tonwexp:item/head/spearsteelhead" },	
+	},
+"textures": {
+"material": {"base": "game:block/metal/ingot/{material}" }
+},
+
+	"guiTransform": {
+		translation: { x: 0, y: 1, z: 0 },
+		rotation: { x: -148, y: -3, z: 51 },
+		origin: { x: 1, y: 0.5, z: 1 }
+	},
+	"fpHandTransform": {
+		translation: { x: 0.4, y: -0.2, z: 0.16 },
+		rotation: { x: -90, y: 100, z: 180 },
+		origin: { x: 0, y: 0, z: 0 },
+		scale: 1.4
+	},
+	"groundTransformByType": {
+		"*":{
+		translation: { x: 0, y: -0.2, z: 0 },
+		rotation: { x: -90, y: 0, z: 0 },
+		origin: { x: 0, y: 0, z: 0 },
+		scale: 2
+	}
+	},
+	"tpHandTransform": {
+		translation: { x: 0, y: 0.22, z: 0.62 },
+		rotation: { x: -37, y: 0, z: 0 },
+		origin: { x: 0, y: 0, z: 0 },
+		scale: 0.4
+	},
+"maxstacksize": 1,
+
+
+}

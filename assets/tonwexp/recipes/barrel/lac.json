@@ -1,0 +1,22 @@
+{
+	"code": "lacportion",
+	"sealHours": 12,
+	"ingredients": [
+		{ 
+		"type": "item",
+		"code": "game:resin",  
+		"quantity": 1 
+		},
+		{ 
+		"type": "item", 
+		"code": "game:alcoholportion",  
+		"litres": 5 
+		},
+	],
+	"output": 
+	{ 
+	"type": "item", 
+	"code": "lacportion", 
+	"litres": 5
+	}
+}

@@ -1,0 +1,44 @@
+{
+"code": "macehead",
+"creativeinventory": { "general": ["*"], "tonwexp": ["*"]},
+"variantgroups": [
+{ "code": "metal", "states": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ]}
+],
+"shapeByType": {
+"*-copper" : {"base": "tonwexp:item/head/maceheadcop" },
+"*-tinbronze" : {"base": "tonwexp:item/head/maceheadbro" },
+"*-bismuthbronze" : {"base": "tonwexp:item/head/maceheadbismu" },
+"*-blackbronze" : {"base": "tonwexp:item/head/maceheadblack" },
+"*-iron" : {"base": "tonwexp:item/head/maceheadiron" },
+"*-meteoriciron" : {"base": "tonwexp:item/head/maceheadmeteor" },
+"*-steel" : {"base": "tonwexp:item/head/maceheadsteel" }
+},
+"textures": {
+"metal": {"base": "game:block/metal/ingot/{metal}" }
+},
+"maxstacksize": 1,
+
+	"guiTransform": {
+		"translation": { x: 1.7, y: -2, z: 0 },
+		"rotation": { x: -90, y: 45, z: 0 },
+		"origin": { x: 0.6, y: 0, z: 0.5 },
+		"scale": 2.2
+	},
+	"fpHandTransform": {
+		"translation": { x: -0.15, y: 0.55, z: 1.23 },
+		"rotation": { x: -168, y: 90, z: -94 },
+		"origin": { x: 0, y: 0, z: 0 }
+	},
+	"tpHandTransform": {
+		"translation": { x: 0.27, y: 0.6, z: 0.05 },
+		"rotation": { x: -90, y: 0, z: -2 },
+		"origin": { x: 0, y: 0, z: 0 },
+		"scale": 0.6
+	},
+	"groundTransform": {
+		"translation": { x: 0, y: 0, z: 0 },
+		"rotation": { x: 0, y: -17, z: 0 },
+		"origin": { x: 0, y: 0, z: 0 },
+		"scale": 2.55
+	}
+}

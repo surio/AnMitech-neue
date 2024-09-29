@@ -1,0 +1,97 @@
+{
+    "code": "flamberg",
+    "tool": "sword",
+    "creativeinventory": { "general": ["*"], "tools": ["*"], "tonwexp": ["*"] },
+    "variantgroups": [{ "code": "metal", "states": ["steel"] }],
+    "behaviors": [
+        {
+            "name": "GroundStorable",
+            "properties": {
+                "layout": "WallHalves",
+                "wallOffY": 2,
+                "sprintKey": true,
+                "selectionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.1, "z2": 1 },
+                "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 0, "y2": 0, "z2": 0 }
+            }
+        },
+        { "name": "AnimationAuthoritative" }
+    ],
+    "shapeByType": {
+        "*-steel": { "base": "tonwexp:item/flamberg" }
+    },
+    "texturesByType": {
+        "*": { "metal": { "base": "game:block/metal/ingot/{metal}" } }
+    },
+    "maxstacksize": 1,
+
+    "heldTpHitAnimation": "falx",
+
+    "attackRange": 2.7,
+
+    "attackpowerByType": {
+        "*-steel": 6.3
+    },
+    "durabilityByType": {
+        "*-steel": 1200
+    },
+    "tooltierByType": {
+        "*-steel": 5
+    },
+    "miningspeedbytype": {
+        "*-steel": {
+            "wood": 2.3,
+            "leaves": 3
+        }
+    },
+    "damagedBy": ["attacking", "blockbreaking"],
+
+    "guiTransform": {
+        "translation": { "x": 4.7, "y": -3, "z": 0 },
+        "rotation": { "x": 20, "y": 38, "z": -45 },
+        "origin": { "x": 0.8, "y": 0.1, "z": 0 },
+        "scale": 1.25
+    },
+    "fpHandTransform": {
+        "translation": { "x": 0.57, "y": -0.26, "z": -0.15 },
+        "rotation": { "x": -168, "y": 78, "z": -90 },
+        "origin": { "x": 0, "y": 0, "z": 0 },
+        "scale": 2.3
+    },
+    "tpHandTransform": {
+        "translation": { "x": -0.17, "y": 0, "z": 0.5 },
+        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "origin": { "x": 0, "y": 0, "z": 0 },
+        "scale": 0.56
+    },
+    "groundTransform": {
+        "translation": { "x": 0, "y": -0.16, "z": 0 },
+        "rotation": { "x": -90, "y": -18, "z": -2 },
+        "origin": { "x": 0, "y": 0, "z": 0 },
+        "scale": 2.8
+    },
+
+    "attributes": {
+        "sharpenable": true,
+        "onGrindstoneTransform": {
+            "translation": { "x": -0.1, "y": 0.4, "z": 0.25 },
+            "rotation": { "x": 145, "y": 0, "z": 0 },
+            "origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+            "scale": 0.55
+        },
+        "handbook": {
+            "groupBy": ["flamberg-*"]
+        },
+        "toolrackTransform": {
+            "translation": { "x": 0.69, "y": 1, "z": 0.52 },
+            "rotation": { "x": -90, "y": -180, "z": 0 },
+            "origin": { "x": 0, "y": 0, "z": 0 },
+            "scale": 0.85
+        },
+        "groundStorageTransform": {
+            "translation": { "x": 0.35, "y": 0.59, "z": 0.63 },
+            "rotation": { "x": 16, "y": -155, "z": -92 },
+            "origin": { "x": 0, "y": 0, "z": 0 },
+            "scale": 0.73
+        }
+    }
+}

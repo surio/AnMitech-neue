@@ -1,0 +1,15 @@
+{
+"ingredient": {
+"type": "item",
+"code": "game:ingot-*",
+"name": "steel",
+"allowedVariants": ["steel"]
+},
+"name": "Katzbalger",
+"output": { "type": "item", "code": "tonwexp:katzbalgerblade-{steel}"},
+"pattern": [[
+"__#########___",
+"__############",
+"__#########___"
+]]
+}

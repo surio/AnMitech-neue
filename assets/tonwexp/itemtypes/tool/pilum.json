@@ -1,0 +1,107 @@
+{
+    "code": "pilum",
+    "class": "ItemSpear",
+    "damagedby": ["attacking"],
+    "tool": "spear",
+    "variantgroups": [{ "code": "material", "states": ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] }],
+    "shapeByType": {
+        "pilum-tinbronze": { "base": "tonwexp:item/pilum" },
+        "pilum-bismuthbronze": { "base": "tonwexp:item/pilum" },
+        "pilum-blackbronze": { "base": "tonwexp:item/pilum" },
+        "pilum-iron": { "base": "tonwexp:item/pilum" },
+        "pilum-meteoriciron": { "base": "tonwexp:item/pilum" },
+        "pilum-steel": { "base": "tonwexp:item/pilum" }
+    },
+    "heldTpHitAnimation": "spearhit",
+    "behaviors": [
+        {
+            "name": "GroundStorable",
+            "properties": {
+                "layout": "WallHalves",
+                "wallOffY": 2,
+                "sprintKey": true,
+                "selectionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.1, "z2": 1 },
+                "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 0, "y2": 0, "z2": 0 }
+            }
+        },
+        { "name": "AnimationAuthoritative" }
+    ],
+    "texturesByType": {
+        "*": {
+            "material": { "base": "game:block/metal/ingot/{material}" }
+        }
+    },
+    "attackRange": 3.3,
+    "attackpowerbytype": {
+        "pilum-tinbronze": 2.8,
+        "pilum-bismuthbronze": 3,
+        "pilum-blackbronze": 3,
+        "pilum-iron": 3.5,
+        "pilum-meteoriciron": 3.8,
+        "pilum-steel": 4.3
+    },
+    "__comment": "Thrown damage",
+    "attributes": {
+        "hackingByType": {
+            "*-hacking": true
+        },
+        "damageByType": {
+            "pilum-tinbronze": 10.5,
+            "pilum-bismuthbronze": 10.5,
+            "pilum-blackbronze": 12,
+            "pilum-iron": 13.5,
+            "pilum-meteoriciron": 15,
+            "pilum-steel": 17
+        },
+        "spearEntityCode": "tonwexp:pilum-{material}",
+        "handbook": {
+            "groupBy": ["pilum-*"]
+        },
+        "toolrackTransform": {
+            "translation": { "x": 0.23, "y": 0.48, "z": 0 },
+            "origin": { "x": 0, "y": 0, "z": 0 },
+            "scale": 1.1
+        },
+        "groundStorageTransform": {
+            "translation": { "x": 0.29, "y": 0.59, "z": 0.14 },
+            "rotation": { "x": 16, "y": 1, "z": 90 },
+            "origin": { "x": 0, "y": 0, "z": 0 },
+            "scale": 0.85
+        }
+    },
+    "durabilitybytype": {
+        "pilum-tinbronze": 50,
+        "pilum-bismuthbronze": 65,
+        "pilum-blackbronze": 80,
+        "pilum-iron": 100,
+        "pilum-meteoriciron": 120,
+        "pilum-steel": 160
+    },
+    "creativeinventory": { "general": ["*"], "items": ["*"], "tools": ["*"], "tonwexp": ["*"] },
+    "guiTransform": {
+        "translation": { "x": -5, "y": 12, "z": 0 },
+        "rotation": { "x": -148, "y": -3, "z": 51 },
+        "origin": { "x": 0.13, "y": 0, "z": 0.3 },
+        "scale": 2
+    },
+    "fpHandTransform": {
+        "translation": { "x": -0.2, "y": 0.7, "z": 0.16 },
+        "rotation": { "x": -82, "y": 180, "z": 96 },
+        "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+        "scale": 2.45
+    },
+    "groundTransformByType": {
+        "*": {
+            "translation": { "x": 0, "y": 0, "z": 0 },
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+            "scale": 3.4
+        }
+    },
+    "tpHandTransform": {
+        "translation": { "x": 0.18, "y": 0.52, "z": 0.12 },
+        "rotation": { "x": -81, "y": 0, "z": 0 },
+        "origin": { "x": 0, "y": 0, "z": 0 },
+        "scale": 0.8
+    }
+}

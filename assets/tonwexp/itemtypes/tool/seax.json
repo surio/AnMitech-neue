@@ -1,0 +1,161 @@
+{
+    "code": "seax",
+    "__comment": "ItemKnife contains code for harvesting animal carcasses",
+    "class": "ItemKnife",
+    "tool": "knife",
+    "creativeinventory": { "general": ["*"], "tools": ["*"], "tonwexp": ["*"] },
+    "variantgroups": [{ "code": "metal", "states": ["iron", "meteoriciron", "boneiron", "meteoricironl", "steell", "steelb"] }],
+    "behaviors": [
+        {
+            "name": "GroundStorable",
+            "properties": {
+                "layout": "WallHalves",
+                "wallOffY": 2,
+                "sprintKey": true,
+                "selectionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.1, "z2": 1 },
+                "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 0, "y2": 0, "z2": 0 }
+            }
+        },
+        { "name": "AnimationAuthoritative" }
+    ],
+    "shapeByType": {
+        "*-iron": { "base": "tonwexp:item/seax" },
+        "*-meteoriciron": { "base": "tonwexp:item/seax" },
+        "*-boneiron": { "base": "tonwexp:item/seax" },
+        "*-meteoricironl": { "base": "tonwexp:item/seax" },
+        "*-steell": { "base": "tonwexp:item/seaxstel" },
+        "*-steelb": { "base": "tonwexp:item/seaxstel" }
+    },
+    "texturesByType": {
+        "*-iron": {
+            "blade": { "base": "game:block/metal/ingot/{metal}" }
+        },
+        "*-meteoriciron": {
+            "blade": { "base": "game:block/metal/ingot/{metal}" }
+        },
+        "*-boneiron": {
+            "blade": { "base": "game:block/metal/ingot/iron" },
+            "handle": { "base": "game:block/bone-yellow" }
+        },
+        "*-meteoricironl": {
+            "blade": { "base": "game:block/metal/ingot/meteoriciron" },
+            "handle": { "base": "game:block/leather/plain" }
+        },
+        "*-steell": {
+            "blade": { "base": "game:block/metal/ingot/steel" },
+            "handle": { "base": "game:block/leather/plain" }
+        },
+        "*-steelb": {
+            "blade": { "base": "game:block/metal/ingot/steel" },
+            "handle": { "base": "game:block/bone-yellow" }
+        }
+    },
+    "maxstacksize": 1,
+
+    "heldTpHitAnimation": "falx",
+
+    "heldTpUseAnimation": "knap",
+
+    "attackRange": 1.5,
+
+    "attackpowerByType": {
+        "*-iron": 4.8,
+        "*-meteoriciron": 5,
+        "*-boneiron": 4.8,
+        "*-meteoricironl": 5,
+        "*-steell": 5.4,
+        "*-steelb": 5.4
+    },
+    "durabilityByType": {
+        "*-iron": 1100,
+        "*-meteoriciron": 1400,
+        "*-boneiron": 1250,
+        "*-meteoricironl": 1550,
+        "*-steell": 2650,
+        "*-steelb": 2800
+    },
+    "tooltierByType": {
+        "*-iron": 3,
+        "*-meteoriciron": 3,
+        "*-boneiron": 3,
+        "*-meteoricironl": 3,
+        "*-steell": 4,
+        "*-steelb": 4
+    },
+    "damagedBy": ["attacking", "blockbreaking"],
+
+    "miningspeedbytype": {
+        "*-iron": {
+            "plant": 3,
+            "leaves": 5
+        },
+        "*-meteoriciron": {
+            "plant": 3.2,
+            "leaves": 5.5
+        },
+        "*-boneiron": {
+            "plant": 3,
+            "leaves": 5
+        },
+        "*-meteoricironl": {
+            "plant": 3.2,
+            "leaves": 5.5
+        },
+        "*-steell": {
+            "plant": 3.5,
+            "leaves": 6
+        },
+        "*-steelb": {
+            "plant": 3.5,
+            "leaves": 6
+        }
+    },
+    "guiTransform": {
+        "translation": { "x": 2, "y": -1, "z": 0 },
+        "rotation": { "x": 161, "y": -163, "z": -53 },
+        "origin": { "x": 0.5, "y": 0.1, "z": 0 },
+        "scale": 2.91
+    },
+    "fpHandTransform": {
+        "translation": { "x": 0.05, "y": 0.3, "z": 1.2 },
+        "rotation": { "x": 91, "y": 87, "z": -26 },
+        "origin": { "x": 0, "y": 0, "z": 0 },
+        "scale": 1.45
+    },
+    "tpHandTransform": {
+        "translation": { "x": 0.19, "y": 0, "z": 0.5 },
+        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "origin": { "x": 0, "y": 0, "z": 0 },
+        "scale": 0.7
+    },
+    "groundTransform": {
+        "translation": { "x": 0, "y": 0.31, "z": 0 },
+        "rotation": { "x": 90, "y": 0, "z": -1 },
+        "origin": { "x": 0, "y": 0, "z": 0 },
+        "scale": 2.8
+    },
+    "attributes": {
+        "sharpenable": true,
+        "onGrindstoneTransform": {
+            "translation": { "x": 0.1, "y": 0.4, "z": 0.25 },
+            "rotation": { "x": 145, "y": 0, "z": 0 },
+            "origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+            "scale": 0.5
+        },
+        "handbook": {
+            "groupBy": ["seax-*"]
+        },
+        "toolrackTransform": {
+            "translation": { "x": 1.03, "y": 1.06, "z": 0.55 },
+            "rotation": { "x": -90, "y": -180, "z": 0 },
+            "origin": { "x": 0, "y": 0, "z": 0 },
+            "scale": 1.05
+        },
+        "groundStorageTransform": {
+            "translation": { "x": 0.26, "y": 0.53, "z": 0.37 },
+            "rotation": { "x": 16, "y": 0, "z": -90 },
+            "origin": { "x": 0, "y": 0, "z": 0 },
+            "scale": 0.8
+        }
+    }
+}

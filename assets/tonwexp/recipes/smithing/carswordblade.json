@@ -1,0 +1,15 @@
+{
+"ingredient": {
+"type": "item",
+"code": "game:ingot-*",
+"name": "metal",
+"allowedVariants": [ "iron", "meteoriciron", "steel" ]
+},
+"name": "Carsword",
+"output": { "type": "item", "code": "tonwexp:carswordblade-{metal}"},
+"pattern": [[
+"_##########____",
+"###############",
+"_##########____"
+]]
+}

@@ -1,0 +1,37 @@
+{
+"code": "flambergblade",
+"creativeinventory": { "general": ["*"], "tonwexp": ["*"]},
+"variantgroups": [
+{ "code": "metal", "states": [ "steel" ]}
+],
+"shape": {"base": "tonwexp:item/head/flambergblade" },
+"textures": {
+"iron": {"base": "game:block/metal/ingot/{metal}" }
+},
+"maxstacksize": 1,
+
+	"guiTransform": {
+		translation: { x: 13.7, y: 5, z: 0 },
+		rotation: { x: 3, y: 28, z: -45 },
+		origin: { x: 0.5, y: -0.6, z: 3 },
+		scale: 1.25
+	},
+	"fpHandTransform": {
+		"translation": { x: -0.13, y: 0.44, z: 1.35 },
+		"rotation": { x: -168, y: 90, z: -94 },
+		"origin": { x: 0, y: 0, z: 0 },
+		"scale": 0.8
+	},
+	"tpHandTransform": {
+		"translation": { x: 0.11, y: -0.02, z: 0.52 },
+		"rotation": { x: 0, y: 0, z: 0 },
+		"origin": { x: 0, y: 0, z: 0 },
+		"scale": 0.56
+	},
+	"groundTransform": {
+		"translation": { x: 0, y: -0.26, z: 0 },
+		"rotation": { x: -90, y: -18, z: 0 },
+		"origin": { x: 0, y: 0, z: 0 },
+		"scale": 2.8
+	},
+}

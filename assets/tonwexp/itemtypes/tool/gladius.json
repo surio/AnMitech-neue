@@ -1,0 +1,141 @@
+{
+    "code": "gladius",
+    "tool": "sword",
+    "creativeinventory": { "general": ["*"], "tools": ["*"], "tonwexp": ["*"] },
+    "variantgroups": [{ "code": "metal", "states": ["tinbronze", "bismuthbronze", "blackbronzeb", "ironl", "steelb", "meteoricironl"] }],
+    "behaviors": [
+        {
+            "name": "GroundStorable",
+            "properties": {
+                "layout": "WallHalves",
+                "wallOffY": 2,
+                "sprintKey": true,
+                "selectionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.1, "z2": 1 },
+                "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 0, "y2": 0, "z2": 0 }
+            }
+        },
+        { "name": "AnimationAuthoritative" }
+    ],
+    "shapeByType": {
+        "*-tinbronze": { "base": "tonwexp:item/gladiusbro" },
+        "*-bismuthbronze": { "base": "tonwexp:item/gladiusbismu" },
+        "*-blackbronzeb": { "base": "tonwexp:item/gladiusblack" },
+        "*-ironl": { "base": "tonwexp:item/gladiusiron" },
+        "*-steelb": { "base": "tonwexp:item/gladiussteel" },
+        "*-meteoricironl": { "base": "tonwexp:item/gladiusmeteoriciron" }
+    },
+    "texturesByType": {
+        "*": { "metal": { "base": "game:block/metal/ingot/{metal}" } },
+        "*-blackbronzeb": { "base": "game:block/metal/ingot/blackbronze" },
+        "*-ironl": { "base": "game:block/metal/ingot/iron" },
+        "*-steelb": { "base": "game:block/metal/ingot/steel" },
+        "*-meteoricironl": { "base": "game:block/metal/ingot/meteoriciron" }
+    },
+    "maxstacksize": 1,
+
+    "heldTpHitAnimation": "falx",
+
+    "attackRange": 2.4,
+
+    "attackpowerByType": {
+        "*-tinbronze": 4.6,
+        "*-bismuthbronze": 4.6,
+        "*-blackbronzeb": 5,
+        "*-ironl": 5.1,
+        "*-steelb": 5.5,
+        "*-meteoricironl": 5.4
+    },
+    "durabilityByType": {
+        "*-tinbronze": 490,
+        "*-bismuthbronze": 550,
+        "*-blackbronzeb": 700,
+        "*-ironl": 1050,
+        "*-meteoricironl": 1350,
+        "*-steelb": 2200
+    },
+    "tooltierByType": {
+        "*-tinbronze": 3,
+        "*-bismuthbronze": 3,
+        "*-blackbronzeb": 4,
+        "*-ironl": 4,
+        "*-meteoricironl": 4,
+        "*-steelb": 5
+    },
+    "miningspeedbytype": {
+        "*-tinbronze": {
+            "wood": 2,
+            "leaves": 1.8
+        },
+        "*-bismuthbronze": {
+            "wood": 2.1,
+            "leaves": 1.9
+        },
+        "*-blackbronzeb": {
+            "wood": 2.2,
+            "leaves": 2
+        },
+        "*-ironl": {
+            "wood": 2.4,
+            "leaves": 2.2
+        },
+        "*-meteoricironl": {
+            "wood": 2.6,
+            "leaves": 2.3
+        },
+        "*-steelb": {
+            "wood": 2.7,
+            "leaves": 2.4
+        }
+    },
+    "damagedBy": ["attacking", "blockbreaking"],
+
+    "guiTransform": {
+        "translation": { "x": -0.3, "y": -1, "z": 0 },
+        "rotation": { "x": 20, "y": 45, "z": -45 },
+        "origin": { "x": 0.9, "y": 0.3, "z": 0 },
+        "scale": 1.25
+    },
+    "fpHandTransform": {
+        "translation": { "x": 0.45, "y": -0.35, "z": -0.07 },
+        "rotation": { "x": -170, "y": 80, "z": -90 },
+        "origin": { "x": 0, "y": 0, "z": 0 },
+        "scale": 2.4
+    },
+    "tpHandTransform": {
+        "translation": { "x": -0.08, "y": -0.14, "z": 0.5 },
+        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "origin": { "x": 0, "y": 0, "z": 0 },
+        "scale": 0.5
+    },
+    "groundTransform": {
+        "translation": { "x": 0, "y": -0.2, "z": 0 },
+        "rotation": { "x": -90, "y": -18, "z": -2 },
+        "origin": { "x": 0, "y": 0, "z": 0 },
+        "scale": 2.55
+    },
+
+    "attributes": {
+        "sharpenable": true,
+        "onGrindstoneTransform": {
+            "translation": { "x": 0, "y": 0.45, "z": 0.21 },
+            "rotation": { "x": 145, "y": 0, "z": 0 },
+            "origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+            "scale": 0.5
+        },
+        "handbook": {
+            "groupBy": ["gladius-*"]
+        },
+        "toolrackTransform": {
+            "translation": { "x": 0.91, "y": 0.95, "z": 0.7 },
+            "rotation": { "x": -90, "y": -180, "z": 0 },
+            "origin": { "x": 0, "y": 0, "z": 0 },
+            "scale": 0.87
+        },
+        "groundStorageTransform": {
+            "translation": { "x": 0.22, "y": 0.62, "z": 0.33 },
+            "rotation": { "x": 16, "y": 0, "z": -90 },
+            "origin": { "x": 0, "y": 0, "z": 0 },
+            "scale": 0.77
+        }
+    }
+}
