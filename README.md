@@ -9,4 +9,5 @@
 * The code for deliberately slowing down the mace is removed in this release to retain parity with in-game mace speeds of recent game releases.
 
 <h3> Upcomimg </h3>
+
 * Scutum - Roman legionnaire shield assets to be implemented. 
