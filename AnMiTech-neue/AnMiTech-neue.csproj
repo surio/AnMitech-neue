@@ -58,4 +58,8 @@
         </Content>
     </ItemGroup>
 
+    <ItemGroup>
+      <Compile Remove="src\modsystem.cs" />
+    </ItemGroup>
+
 </Project>
