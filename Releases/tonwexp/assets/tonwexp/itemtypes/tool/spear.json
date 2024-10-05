@@ -1,0 +1,111 @@
+{
+    "code": "spear",
+    "class": "ItemSpear",
+    "damagedby": ["attacking"],
+    "tool": "spear",
+    "variantgroups": [{ "code": "material", "states": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] }],
+    "behaviors": [
+        {
+            "name": "GroundStorable",
+            "properties": {
+                "layout": "WallHalves",
+                "wallOffY": 2,
+                "sprintKey": true,
+                "selectionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.1, "z2": 1 },
+                "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 0, "y2": 0, "z2": 0 }
+            }
+        },
+        { "name": "AnimationAuthoritative" }
+    ],
+    "shapeByType": {
+        "spear-copper": { "base": "tonwexp:item/spearbronze" },
+        "spear-tinbronze": { "base": "tonwexp:item/spearbronze" },
+        "spear-bismuthbronze": { "base": "tonwexp:item/spearbronze" },
+        "spear-blackbronze": { "base": "tonwexp:item/spearbronze" },
+        "spear-iron": { "base": "tonwexp:item/speariron" },
+        "spear-meteoriciron": { "base": "tonwexp:item/spearmeteor" },
+        "spear-steel": { "base": "tonwexp:item/spearsteel" }
+    },
+    "heldTpHitAnimation": "spearhit",
+    "texturesByType": {
+        "*": {
+            "material": { "base": "game:block/metal/ingot/{material}" }
+        }
+    },
+    "attackRange": 4,
+    "attackpowerbytype": {
+        "spear-copper": 3,
+        "spear-tinbronze": 3.8,
+        "spear-bismuthbronze": 3.7,
+        "spear-blackbronze": 4,
+        "spear-iron": 4.4,
+        "spear-meteoriciron": 4.6,
+        "spear-steel": 5
+    },
+    "__comment": "Thrown damage",
+    "attributes": {
+        "hackingByType": {
+            "*-hacking": true
+        },
+        "damageByType": {
+            "spear-copper": 4,
+            "spear-tinbronze": 4.5,
+            "spear-bismuthbronze": 4.5,
+            "spear-blackbronze": 5,
+            "spear-iron": 5.5,
+            "spear-meteoriciron": 6,
+            "spear-steel": 6.5
+        },
+        "spearEntityCode": "tonwexp:spear-{material}",
+        "handbook": {
+            "groupBy": ["spear-*"]
+        },
+        "toolrackTransform": {
+            "translation": { "x": 0.64, "y": 0.88, "z": 0.36 },
+            "rotation": { "x": 90, "y": 0, "z": 0 },
+            "origin": { "x": 0, "y": 0, "z": 0 },
+            "scale": 0.65
+        },
+        "groundStorageTransform": {
+            "translation": { "x": 0.37, "y": 1, "z": 0.4 },
+            "rotation": { "x": 16, "y": 1, "z": 90 },
+            "origin": { "x": 0, "y": 0, "z": 0 },
+            "scale": 0.6
+        }
+    },
+    "durabilitybytype": {
+        "spear-copper": 400,
+        "spear-tinbronze": 550,
+        "spear-bismuthbronze": 580,
+        "spear-blackbronze": 450,
+        "spear-iron": 900,
+        "spear-meteoriciron": 1200,
+        "spear-steel": 2300
+    },
+    "creativeinventory": { "general": ["*"], "items": ["*"], "tools": ["*"], "tonwexp": ["*"] },
+    "guiTransform": {
+        "translation": { "x": 0, "y": 1, "z": 0 },
+        "rotation": { "x": -148, "y": -3, "z": 51 },
+        "origin": { "x": 1, "y": 0.5, "z": 1 }
+    },
+    "fpHandTransform": {
+        "translation": { "x": 0, "y": 0.5, "z": 0.36 },
+        "rotation": { "x": -90, "y": 100, "z": 95 },
+        "origin": { "x": 0, "y": 0, "z": 0 },
+        "scale": 1.4
+    },
+    "groundTransformByType": {
+        "*": {
+            "translation": { "x": 0, "y": -0.2, "z": 0 },
+            "rotation": { "x": -90, "y": 0, "z": 0 },
+            "origin": { "x": 0, "y": 0, "z": 0 },
+            "scale": 2
+        }
+    },
+    "tpHandTransform": {
+        "translation": { "x": -2.82, "y": 0.22, "z": 0.62 },
+        "rotation": { "x": -37, "y": 0, "z": 0 },
+        "origin": { "x": 0, "y": 0, "z": 0 },
+        "scale": 0.4
+    }
+}

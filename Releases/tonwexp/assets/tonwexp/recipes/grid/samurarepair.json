@@ -1,0 +1,71 @@
+[
+	{
+	"ingredientPattern": "B,L",
+	"recipeGroup": 2,
+	"ingredients": {
+		"B": { "type": "item",
+		"code": "tonwexp:armor-body-samura-*", 
+		"name": "color", 
+		"allowedVariants": ["yellow","orange","green"] 
+		},
+		"L": { "type": "item",
+		"code": "tonwexp:scalecolor-*",
+		"name": "color",
+		"allowedVariants": ["yellow","orange","green"] 
+		},
+		},
+		"width": 1,
+		"height": 2,
+		"name": "samura body repair",
+		"shapeless": true,
+		"copyAttributesFrom": 'B',
+		"averageDurability": false,
+		"output": {"type": "item", "code": "tonwexp:armor-body-samura-{color}" }
+	},
+	{
+	"ingredientPattern": "B,L",
+	"recipeGroup": 2,
+	"ingredients": {
+		"B": { "type": "item",
+		"code": "tonwexp:armor-head-samura-*", 
+		"name": "color", 
+		"allowedVariants": ["yellow","orange","green"] 
+		},
+		"L": { "type": "item",
+		"code": "tonwexp:scalecolor-*",
+		"name": "color",
+		"allowedVariants": ["yellow","orange","green"] 
+		},
+		},
+		"width": 1,
+		"height": 2,
+		"name": "samura head repair",
+		"shapeless": true,
+		"copyAttributesFrom": 'B',
+		"averageDurability": false,
+		"output": {"type": "item", "code": "tonwexp:armor-head-samura-{color}" }
+	},
+	{
+	"ingredientPattern": "B,L",
+	"recipeGroup": 2,
+	"ingredients": {
+		"B": { "type": "item",
+		"code": "tonwexp:armor-legs-samura-*", 
+		"name": "color", 
+		"allowedVariants": ["yellow","orange","green"] 
+		},
+		"L": { "type": "item",
+		"code": "tonwexp:scalecolor-*",
+		"name": "color",
+		"allowedVariants": ["yellow","orange","green"] 
+		},
+		},
+		"width": 1,
+		"height": 2,
+		"name": "samura legs repair",
+		"shapeless": true,
+		"copyAttributesFrom": 'B',
+		"averageDurability": false,
+		"output": {"type": "item", "code": "tonwexp:armor-legs-samura-{color}" }
+	},
+]

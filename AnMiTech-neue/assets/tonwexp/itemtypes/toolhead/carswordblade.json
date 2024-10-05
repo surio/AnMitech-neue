@@ -1,0 +1,41 @@
+{
+	"code": "carswordblade",
+	"creativeinventory": { "general": ["*"], "tonwexp": ["*"] },
+	"variantgroups": [ { "code": "metal", "states": [ "iron", "meteoriciron", "steel", "steelu" ] } ],
+	"shapeByType": {
+		"*-iron" : { "base": "tonwexp:item/head/carswordblade" },
+		"*-meteoriciron" : { "base": "tonwexp:item/head/carswordblade" },
+		"*-steel" : { "base": "tonwexp:item/head/carswordblade" },
+		"*-steelu" : { "base": "tonwexp:item/head/ulfberhtblade" }
+	},
+	"texturesByType": {
+		"*-iron": { "blade": { "base": "game:block/metal/ingot/iron" } },
+		"*-meteoriciron": { "blade": { "base": "game:block/metal/ingot/meteoriciron" } },
+		"*-steel": { "blade": { "base": "game:block/metal/ingot/steel" } },
+		"*-steelu": { "bladeu": { "base": "game:block/metal/ingot/steel" },
+					"letter": { "base": "game:block/metal/ingot/iron" } }
+	},
+	"guiTransform": {
+		"translation": { "x": 3.7, "y": 2, "z": 0 },
+		"rotation": { "x": 16, "y": 20, "z": -45 },
+		"origin": { "x": 0, "y": 0, "z": 4 }
+	},
+	"fpHandTransform": {
+		"translation": { "x": -0.1, "y": 0.6, "z": 1.35 },
+		"rotation": { "x": -168, "y": 90, "z": -94 },
+		"origin": { "x": 0, "y": 0, "z": 0 },
+		"scale": 0.6
+	},
+	"tpHandTransform": {
+		"translation": { "x": -0.26, "y": -0.04, "z": 0.52 },
+		"rotation": { "x": 0, "y": 0, "z": 0 },
+		"origin": { "x": 0, "y": 0, "z": 0 }
+	},
+	"groundTransform": {
+		"translation": { "x": 0, "y": -0.16, "z": 0 },
+		"rotation": { "x": -90, "y": -18, "z": -2 },
+		"origin": { "x": 0, "y": 0, "z": 0 },
+		"scale": 2.1
+	},
+	"maxstacksize": 1
+}

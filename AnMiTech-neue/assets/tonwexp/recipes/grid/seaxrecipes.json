@@ -1,0 +1,247 @@
+[
+	{
+		ingredientPattern: "FKF,FGF,FFF",
+		ingredients: {
+			"K": { type: "item", code: "tonwexp:seax-*", isTool: true },
+			"F": { type: "item", code: "game:firewood", quantity: 2 },
+			"G": { type: "item", code: "game:drygrass", quantity: 9 }
+		},
+		width: 3,
+		height: 3,
+		name: "improvised wood armor",
+		output: { type: "item", code: "game:armor-body-improvised-wood"  }
+	},
+	{
+		ingredientPattern: "HKH,HHH",
+		recipeGroup: 1,
+		ingredients: {
+			"H": { type: "item", code: "game:hide-raw-*", allowedVariants: ["medium", "large", "huge"] },
+			"K": { type: "item", code: "tonwexp:seax-*", isTool: true  }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "game:clothes-upperbody-raw-hide-mantle"  }
+	},
+	{
+		ingredientPattern: "HKH,H_H",
+		recipeGroup: 1,
+		ingredients: {
+			"H": { type: "item", code: "game:hide-raw-*", allowedVariants: ["medium", "large", "huge"] },
+			"K": { type: "item", code: "tonwexp:seax-*", isTool: true  }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "game:clothes-lowerbody-raw-hide-trousers"  }
+	},
+	{
+		ingredientPattern: "HKH,HHH,HHH",
+		recipeGroup: 1,
+		ingredients: {
+			"H": { type: "item", code: "game:hide-pelt-*", allowedVariants: ["medium", "large", "huge"], quantity: 2 },
+			"K": { type: "item", code: "tonwexp:seax-*", isTool: true  }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "game:clothes-upperbodyover-fur-coat"  }
+	},
+	{
+		ingredientPattern: "HKH,HHH",
+		recipeGroup: 1,
+		ingredients: {
+			"H": { type: "item", code: "game:hide-pelt-*", allowedVariants: ["medium", "large", "huge"], quantity: 2 },
+			"K": { type: "item", code: "tonwexp:seax-*", isTool: true  }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "game:clothes-foot-knee-high-fur-boots"  }
+	},	
+	{
+		ingredientPattern: "HKH",
+		recipeGroup: 1,
+		ingredients: {
+			"H": { type: "item", code: "game:hide-pelt-*", allowedVariants: ["medium", "large", "huge"], quantity: 2 },
+			"K": { type: "item", code: "tonwexp:seax-*", isTool: true  }
+		},
+		width: 3,
+		height: 1,
+		output: { type: "item", code: "game:clothes-hand-fur-gloves"  }
+	},
+	{
+		ingredientPattern: "KB",
+		ingredients: {
+			"K": { type: "item", code: "tonwexp:seax-*", isTool: true },
+			"B": { type: "block", code: "game:sapling-greenbambooshoots-free" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "item", code: "game:vegetable-bambooshoot", quantity: 2 }
+	},
+	{
+		ingredientPattern: "KB",
+		ingredients: {
+			"K": { type: "item", code: "tonwexp:seax-*", isTool: true },
+			"B": { type: "block", code: "game:sapling-brownbambooshoots-free" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "item", code: "game:vegetable-bambooshoot", quantity: 2 }
+	},
+	{
+		ingredientPattern: "K,H",
+		enabled: true,
+		shapeless: true,
+		ingredients: {
+			"K": { type: "item", code: "tonwexp:seax-*", isTool: true },
+			"H": { type: "block", code: "game:linen-*", quantity: 1 },
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:bandage-clean", quantity: 4 }
+	},
+	{
+		ingredientPattern: "K,T",
+		enabled: true,
+		shapeless: true,
+		ingredients: {
+			"K": { type: "item", code: "tonwexp:seax-*", isTool: true },
+			"T": { type: "item", code: "game:*-tattered-*", quantity: 1 },
+		},
+		width: 1,
+		height: 2,
+		recipeGroup: 1,
+		output: { type: "item", code: "game:bandage-clean", quantity: 2 }
+	},
+	{
+	ingredientPattern: "K,P",
+	ingredients: {
+		"K": { type: "item", code: "tonwexp:seax-*", isTool: true },
+		"P": { type: "item", code: "game:rawcassava-soaked" }
+	},
+	width: 1,
+	height: 2,
+	output: { type: "item", code: "game:vegetable-cassava", quantity: 1  }
+},
+{
+	ingredientPattern: "LK",
+	ingredients: {
+		"K": { type: "item", code: "tonwexp:seax-*", isTool: true },
+		"L": { type: "block", code: "game:log-*", allowedVariants: ["placed-birch-ud", "placed-oak-ud", "placed-maple-ud", "placed-pine-ud", "placed-acacia-ud", "placed-redwood-ud", "placed-larch-ud", "placed-baldcypress-ud", "placed-walnut-ud"] }
+	},
+	width: 2,
+	height: 1,
+	output: { type: "block", code: "game:pan-wooden"  }
+},
+{
+	ingredientPattern: "K,P",
+	ingredients: {
+		"K": { type: "item", code: "tonwexp:seax-*", isTool: true },
+		"P": { type: "block", code: "game:pumpkin-fruit-4" }
+	},
+	width: 1,
+	height: 2,
+	output: { type: "item", code: "game:vegetable-pumpkin", quantity: 4  }
+},
+{
+		ingredientPattern: "__K,LL_,LL_",
+		ingredients: {
+			"K": { type: "item", code: "tonwexp:seax-*", isTool: true },
+			"L": { type: "item", code: "game:cattailtops", quantity: 2 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:rushmat"  }
+	},
+	{
+		ingredientPattern: "__K,PP_,PP_",
+		ingredients: {
+			"K": { type: "item", code: "tonwexp:seax-*", isTool: true },
+			"P": { type: "item", code: "game:papyrustops", quantity: 2 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:rushmat"  }
+	},
+	{
+	ingredientPattern: "A	L",
+	ingredients: {
+		"A": { type: "item", code: "tonwexp:seax-*", isTool: true  },
+		"L": { type: "block", code: "game:log-*", allowedVariants: ["placed-birch-ud", "placed-oak-ud", "placed-maple-ud", "placed-pine-ud", "placed-acacia-ud", "placed-kapok-ud", "placed-redwood-ud", "placed-larch-ud", "placed-baldcypress-ud", "placed-walnut-ud", "placed-purpleheart-ud", "placed-ebony-ud"] }
+	},
+	width: 1,
+	height: 2,
+	output: { type: "item", code: "game:club-generic-wood", quantity: 1  }
+},
+{
+	ingredientPattern: "K,P",
+	ingredients: {
+		"K": { type: "item", code: "tonwexp:seax-*", isTool: true },
+		"P": { type: "block", code: "game:pineapple" }
+	},
+	width: 1,
+	height: 2,
+	output: { type: "item", code: "game:fruit-pineapple", quantity: 12  }
+},
+{
+		ingredientPattern: "HK",
+		ingredients: {
+			"H": { type: "block", code: "game:*-thatch-*" },
+			"K": { type: "item", code: "tonwexp:seax-*", isTool: true, toolDurabilityCost: 1 },
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 2,
+		shapeless: true,
+		output: { type: "item", code: "game:drygrass", quantity: 2 }
+	},
+	{
+		ingredientPattern: "HK",
+		ingredients: {
+			"H": { type: "block", code: "game:bed-hay-head-north" },
+			"K": { type: "item", code: "tonwexp:seax-*", isTool: true, toolDurabilityCost: 3 },
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		output: { type: "item", code: "game:drygrass", quantity: 18 }
+	},
+	{
+	ingredientPattern: "S,O",
+	enabled: true,
+	shapeless: true,
+	ingredients: {
+		"S": { type: "item", code: "tonwexp:seax-*", isTool: true },
+		"O": { type: "item", code: "game:hide-soaked-*", quantity: 1, name: "size" },
+	},
+	name: "scrapedhide",
+	width: 1,
+	height: 2,
+	output: { type: "item", code: "game:hide-scraped-{size}", quantity: 1 }
+},
+{
+	ingredientPattern: "KB",
+	ingredients: {
+		"K": { type: "item", code: "tonwexp:seax-*", isTool: true },
+		"B": { type: "item", code: "game:basket" }
+	},
+	name: "basket",
+	width: 2,
+	height: 1,
+	shapeless: true,
+	output: { type: "item", code: "game:cattailtops", quantity: 5 }
+},
+{
+	ingredientPattern: "KB",
+	ingredients: {
+		"K": { type: "item", code: "tonwexp:seax-*", isTool: true },
+		"B": { type: "block", code: "game:stationarybasket-east", attributes: { type: "reed" } }
+	},
+	name: "basket",
+	width: 2,
+	height: 1,
+	shapeless: true,
+	output: { type: "item", code: "game:cattailtops", quantity: 12  }
+}
+]

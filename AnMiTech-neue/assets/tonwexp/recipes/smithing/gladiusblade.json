@@ -1,0 +1,15 @@
+{
+"ingredient": {
+"type": "item",
+"code": "game:ingot-*",
+"name": "metal",
+"allowedVariants": [ "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ]
+},
+"name": "Gladius",
+"output": { "type": "item", "code": "tonwexp:gladiusblade-{metal}"},
+"pattern": [[
+"___########___",
+"__############",
+"___########___"
+]]
+}

@@ -1,0 +1,37 @@
+{
+"code": "grossblade",
+"creativeinventory": { "general": ["*"], "tonwexp": ["*"]},
+"variantgroups": [
+{ "code": "iron", "states": [ "steel" ]}
+],
+"shape": {"base": "tonwexp:item/head/grossblade" },
+"textures": {
+"iron": {"base": "game:block/metal/ingot/{iron}" }
+},
+"maxstacksize": 1,
+
+	"guiTransform": {
+		translation: { x: 9.7, y: 1.3, z: 0 },
+		rotation: { x: 0, y: 40, z: -39 },
+		origin: { x: 2, y: 0, z: 1 },
+		scale: 1.4
+	},
+	"fpHandTransform": {
+		"translation": { x: -0.08, y: 0.3, z: 1.3 },
+		"rotation": { x: -168, y: 90, z: -94 },
+		"origin": { x: 0, y: 0, z: 0 },
+		"scale": 0.7
+	},
+	"tpHandTransform": {
+		"translation": { x: 0.92, y: 0.06, z: 0.53 },
+		"rotation": { x: 0, y: 0, z: 0 },
+		"origin": { x: 0, y: 0, z: 0 },
+		"scale": 0.43
+	},
+	"groundTransform": {
+		"translation": { x: 0, y: -0.23, z: 0 },
+		"rotation": { x: -90, y: -18, z: 0 },
+		"origin": { x: 0, y: 0, z: 0 },
+		"scale": 2.2
+	}
+}

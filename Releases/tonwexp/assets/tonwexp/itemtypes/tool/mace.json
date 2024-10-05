@@ -1,0 +1,128 @@
+{
+    "code": "mace",
+    "tool": "sword",
+    "creativeinventory": { "general": ["*"], "tools": ["*"], "tonwexp": ["*"] },
+    "variantgroups": [{ "code": "metal", "states": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] }],
+    "behaviors": [
+        {
+            "name": "GroundStorable",
+            "properties": {
+                "layout": "WallHalves",
+                "wallOffY": 2,
+                "sprintKey": true,
+                "selectionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.1, "z2": 1 },
+                "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 0, "y2": 0, "z2": 0 }
+            }
+        },
+        { "name": "AnimationAuthoritative" }
+    ],
+    "shapeByType": {
+        "*-copper": { "base": "tonwexp:item/macecop" },
+        "*-tinbronze": { "base": "tonwexp:item/macebro" },
+        "*-bismuthbronze": { "base": "tonwexp:item/macebismu" },
+        "*-blackbronze": { "base": "tonwexp:item/maceblack" },
+        "*-iron": { "base": "tonwexp:item/maceiron" },
+        "*-meteoriciron": { "base": "tonwexp:item/macemeteor" },
+        "*-steel": { "base": "tonwexp:item/macesteel" }
+    },
+    "texturesByType": {
+        "*": { "metal": { "base": "game:block/metal/ingot/{metal}" } },
+        "*-blackbronze": { "base": "game:block/metal/ingot/blackbronze" },
+        "*-meteoriciron": { "base": "game:block/metal/ingot/meteoriciron" },
+        "*-steel": { "base": "game:block/metal/ingot/steel" }
+    },
+    "maxstacksize": 1,
+    "heldTpHitAnimation": "breaktool",
+    "attackRange": 2.3,
+    "attackpowerByType": {
+        "*-copper": 5,
+        "*-tinbronze": 5.7,
+        "*-bismuthbronze": 6,
+        "*-blackbronze": 6.3,
+        "*-iron": 7.1,
+        "*-meteoricironl": 7.7,
+        "*-steell": 8.3
+    },
+    "durabilityByType": {
+        "*-copper": 450,
+        "*-tinbronze": 650,
+        "*-bismuthbronze": 750,
+        "*-blackbronze": 800,
+        "*-iron": 1300,
+        "*-meteoriciron": 1600,
+        "*-steel": 3300
+    },
+    "tooltierByType": {
+        "*-copper": 2,
+        "*-tinbronze": 3,
+        "*-bismuthbronze": 3,
+        "*-blackbronze": 4,
+        "*-iron": 4,
+        "*-meteoriciron": 5,
+        "*-steel": 5
+    },
+    "damagedBy": ["attacking"],
+
+    "guiTransform": {
+        "translation": { "x": -2.3, "y": 8, "z": 0 },
+        "rotation": { "x": -84, "y": 45, "z": 35 },
+        "origin": { "x": 0.8, "y": 0, "z": 0.6 },
+        "scale": 2.1
+    },
+    "fpHandTransform": {
+        "translation": { "x": -0.15, "y": 0.55, "z": 1.23 },
+        "rotation": { "x": -168, "y": 90, "z": -94 },
+        "origin": { "x": 0, "y": 0, "z": 0 }
+    },
+    "tpHandTransformByType": {
+        "*-meteoriciron": {
+            "translation": { "x": -0.13, "y": 0.61, "z": 0.04 },
+            "rotation": { "x": -90, "y": 0, "z": -2 },
+            "origin": { "x": 0, "y": 0, "z": 0 },
+            "scale": 0.6
+        },
+        "*-steel": {
+            "translation": { "x": -0.33, "y": 0.61, "z": 0.04 },
+            "rotation": { "x": -90, "y": 0, "z": -2 },
+            "origin": { "x": 0, "y": 0, "z": 0 },
+            "scale": 0.6
+        },
+        "*": {
+            "translation": { "x": 0.17, "y": 0.61, "z": 0.04 },
+            "rotation": { "x": -90, "y": 0, "z": -2 },
+            "origin": { "x": 0, "y": 0, "z": 0 },
+            "scale": 0.6
+        }
+    },
+    "groundTransform": {
+        "translation": { "x": 0, "y": 0, "z": 0 },
+        "rotation": { "x": 0, "y": -17, "z": 2 },
+        "origin": { "x": 0, "y": 0, "z": 0 },
+        "scale": 2.55
+    },
+
+    "attributes": {
+        "handbook": {
+            "groupBy": ["mace-*"]
+        },
+        "toolrackTransform": {
+            "translation": { "x": -0.35, "y": 0.5, "z": -0.07 },
+            "origin": { "x": 0, "y": 0, "z": 0 },
+            "scale": 1.05
+        },
+        "groundStorageTransformByType": {
+            "*": {
+                "translation": { "x": 0.25, "y": 0.54, "z": 0.34 },
+                "rotation": { "x": 16, "y": 0, "z": -90 },
+                "origin": { "x": 0, "y": 0, "z": 0 },
+                "scale": 0.8
+            },
+            "mace-steell": {
+                "translation": { "x": 0.25, "y": 0.54, "z": 0.29 },
+                "rotation": { "x": 16, "y": 0, "z": -90 },
+                "origin": { "x": 0, "y": 0, "z": 0 },
+                "scale": 0.8
+            }
+        }
+    }
+}

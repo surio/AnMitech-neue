@@ -1,0 +1,74 @@
+[
+  {
+    "ingredientPattern": "WHL,PBP,LKW",
+    "ingredients": {
+      "W": { "type": "item", "code": "game:plank-*", "name": "woodtype", "allowedVariants": [ "oak", "purpleheart", "ebony" ], "quantity": 1 },
+      "H": { "type": "item", "code": "game:hoop-iron", "quantity": 1 },
+      "B": { "type": "item", "code": "game:boss-iron", "quantity": 1 },
+      "L": { "type": "item", "code": "game:leather-*", "name": "color", "allowedVariants": [ "green", "red" ], "quantity": 1 },
+      "P": { "type": "item", "code": "game:metalplate-iron", "name": "metaltype", "quantity": 1 },
+      "K": { "type": "item", "code": "game:sewingkit", "quantity": 1 }
+    },
+    "width": 3,
+    "height": 3,
+    "shapeless": false,
+    "output": {
+      "type": "item",
+      "code": "tonwexp:scutum",
+      "quantity": 1,
+      "attributes": {
+        "wood": "{woodtype}",
+        "metal": "iron",
+        "color": "{color}"
+      }
+    }
+  },
+  {
+    "ingredientPattern": "WHL,PBP,LKW",
+    "ingredients": {
+      "W": { "type": "item", "code": "game:plank-*", "name": "woodtype", "allowedVariants": [ "oak", "purpleheart", "ebony" ], "quantity": 1 },
+      "H": { "type": "item", "code": "game:hoop-meteoriciron", "quantity": 1 },
+      "B": { "type": "item", "code": "game:boss-meteoriciron", "quantity": 1 },
+      "L": { "type": "item", "code": "game:leather-*", "name": "color", "allowedVariants": [ "green", "red" ], "quantity": 1 },
+      "P": { "type": "item", "code": "game:metalplate-meteoriciron", "name": "metaltype", "quantity": 1 },
+      "K": { "type": "item", "code": "game:sewingkit", "quantity": 1 }
+    },
+    "width": 3,
+    "height": 3,
+    "shapeless": false,
+    "output": {
+      "type": "item",
+      "code": "tonwexp:scutum",
+      "quantity": 1,
+      "attributes": {
+        "wood": "{woodtype}",
+        "metal": "meteoriciron",
+        "color": "{color}"
+      }
+    }
+  },
+  {
+    "ingredientPattern": "WHL,PBP,LKW",
+    "ingredients": {
+      "W": { "type": "item", "code": "game:plank-*", "name": "woodtype", "allowedVariants": [ "oak", "purpleheart", "ebony" ], "quantity": 1 },
+      "H": { "type": "item", "code": "game:hoop-steel", "quantity": 1 },
+      "B": { "type": "item", "code": "game:boss-steel", "quantity": 1 },
+      "L": { "type": "item", "code": "game:leather-*", "name": "color", "allowedVariants": [ "green", "red" ], "quantity": 1 },
+      "P": { "type": "item", "code": "game:metalplate-steel", "name": "metaltype", "quantity": 1 },
+      "K": { "type": "item", "code": "game:sewingkit", "quantity": 1 }
+    },
+    "width": 3,
+    "height": 3,
+    "shapeless": false,
+    "output": {
+      "type": "item",
+      "code": "tonwexp:scutum",
+      "quantity": 1,
+      "attributes": {
+        "wood": "{woodtype}",
+        "metal": "steel",
+        "color": "{color}"
+      }
+    }
+  }
+]

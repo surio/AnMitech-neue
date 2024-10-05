@@ -1,0 +1,14 @@
+[
+{
+    "ingredientPattern": "C,H,H",
+    "ingredients": {
+      "C": { "type": "item", "code": "tonwexp:spearhead-*", "name": "material", "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "copper", "iron", "blackbronze", "meteoriciron", "steel"] },
+      "H": { "type": "item", "code": "game:stick" }
+    },
+    "width": 1,
+    "height": 3,
+    "shapeless": false,
+    "output": { "type": "item", "code": "tonwexp:spear-{material}" },
+	"quantity": 1
+  },
+]

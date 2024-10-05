@@ -1,0 +1,54 @@
+{
+    "code": "scalecolor",
+    "shape": { "base": "game:item/scales" },
+    "textures": {
+        "material": { "base": "game:block/cloth/linen/{color}" }
+    },
+    "maxstacksize": 8,
+    "storageFlags": 5,
+    "attributes": {
+        "handbook": {
+            "groupBy": ["scalecolor-*"]
+        }
+    },
+    "variantgroups": [{ "code": "color", "states": ["green", "yellow", "orange"] }],
+    "texture": { "base": "game:block/cloth/linen/{color}" },
+    "creativeinventory": { "general": ["*"], "items": ["*"], "tonwexp": ["*"] },
+    "materialDensityByType": {
+        "*-green": 7870,
+        "*-yellow": 7870,
+        "*-orange": 7870
+    },
+    "combustiblePropsByType": {
+        "scalecolor-*": {
+            "meltingPoint": 1482,
+            "meltingDuration": 30,
+            "smeltedRatio": 1,
+            "smeltedStack": { "type": "item", "code": "game:ingot-iron", "stacksize": 1 }
+        }
+    },
+    "fpHandTransform": {
+        "translation": { "x": 0, "y": 0.2, "z": 0 },
+        "rotation": { "x": 21, "y": 0, "z": -1 },
+        "origin": { "x": 0.5, "y": -0.3, "z": 0.5 },
+        "scale": 1.8
+    },
+    "guiTransform": {
+        "translation": { "x": 0, "y": 0, "z": 0 },
+        "rotation": { "x": -30, "y": -44, "z": -180 },
+        "origin": { "x": 0.45, "y": 0.09, "z": 0.5 },
+        "scale": 3
+    },
+    "groundTransform": {
+        "translation": { "x": 0, "y": 0, "z": 0 },
+        "rotation": { "x": 0, "y": 90, "z": 0 },
+        "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+        "scale": 3.31
+    },
+    "tpHandTransform": {
+        "translation": { "x": -0.7, "y": 0.1, "z": -0.53 },
+        "rotation": { "x": 94, "y": 0, "z": 0 },
+        "origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+        "scale": 0.75
+    }
+}

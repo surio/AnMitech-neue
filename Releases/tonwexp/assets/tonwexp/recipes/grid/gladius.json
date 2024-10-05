@@ -1,0 +1,126 @@
+[
+{
+"ingredientPattern": "C,L",
+"ingredients": {
+"C" : {
+"type": "item",
+"code": "tonwexp:gladiusblade-blackbronze",
+},
+"L": {
+"type": "item",
+"code": "game:bone"
+}
+},
+"width": 1,
+"height": 2,
+"shapeless": false,
+"output": {
+"type": "item",
+"code": "tonwexp:gladius-blackbronze",
+"quantity": 1
+}
+},
+{
+"ingredientPattern": "C,L",
+"ingredients": {
+"C" : {
+"type": "item",
+"code": "tonwexp:gladiusblade-steel",
+},
+"L": {
+"type": "item",
+"code": "game:bone"
+}
+},
+"width": 1,
+"height": 2,
+"shapeless": false,
+"output": {
+"type": "item",
+"code": "tonwexp:gladius-steel",
+"quantity": 1
+}
+},
+{
+"ingredientPattern": "X_,HS,L_",
+"ingredients": {
+"X" : {
+"type": "item",
+"code": "tonwexp:gladiusblade-iron",
+},
+"H": {
+"type": "item",
+"code": "game:stick"
+},
+"S": {
+"type": "item",
+"code": "game:resin"
+},
+"L": {
+"type": "item",
+"code": "game:leather-plain"
+}
+},
+"width": 2,
+"height": 3,
+"shapeless": false,
+"output": {
+"type": "item",
+"code": "tonwexp:gladius-iron",
+"quantity": 1
+}
+},
+{
+"ingredientPattern": "X_,HS,L_",
+"ingredients": {
+"X" : {
+"type": "item",
+"code": "tonwexp:gladiusblade-meteoriciron",
+},
+"H": {
+"type": "item",
+"code": "game:stick"
+},
+"S": {
+"type": "item",
+"code": "game:resin"
+},
+"L": {
+"type": "item",
+"code": "game:leather-plain"
+}
+},
+"width": 2,
+"height": 3,
+"shapeless": false,
+"output": {
+"type": "item",
+"code": "tonwexp:gladius-meteoriciron",
+"quantity": 1
+}
+},
+{
+"ingredientPattern": "B,H",
+"ingredients": {
+"B" : {
+"type": "item",
+"code": "tonwexp:gladiusblade-*",
+"name": "metal",
+"allowedVariants": ["tinbronze", "bismuthbronze"],
+"quantity": 1
+},
+"H": {
+"type": "item",
+"code": "game:stick"
+},
+},
+"width": 1,
+"height": 2,
+"shapeless": false,
+"output": {
+"type": "item",
+"code": "tonwexp:gladius-{metal}",
+"quantity": 1
+}
+}
+]

@@ -1,0 +1,80 @@
+[
+{
+"ingredientPattern": "CCC,HCH,_C_",
+"ingredients": {
+"C": {
+"type": "item",
+"code": "game:metalplate-*", 
+"quantity": 1, 
+"name": "metal", 
+"allowedVariants": ["iron", "meteoriciron", "steel"]
+},
+"H": {
+"type": "item",
+"code": "game:leather-plain",
+"quantity": 2,
+}
+},
+"width": 3,
+"height": 3,
+"name": "metal segment body",
+"shapeless": false,
+"output": {
+"type": "item",
+"code": "tonwexp:armor-body-segment-{metal}",
+"quantity": 1
+}
+},
+{
+"ingredientPattern": "_C_,CRC",
+"ingredients": {
+"C": {
+"type": "item",
+"code": "game:metalplate-*", 
+"quantity": 1, 
+"name": "metal", 
+"allowedVariants": ["iron", "meteoriciron", "steel"]
+},
+"R": {
+"type": "item",
+"code": "game:leather-plain",
+"quantity": 1,
+}
+},
+"width": 3,
+"height": 2,
+"name": "metal segment head",
+"shapeless": false,
+"output": {
+"type": "item",
+"code": "tonwexp:armor-head-segment-{metal}",
+"quantity": 1
+}
+},
+{
+"ingredientPattern": "R_R,C_C",
+"ingredients": {
+"C": {
+"type": "item",
+"code": "game:metalplate-*", 
+"quantity": 1, 
+"name": "metal", 
+"allowedVariants": ["iron", "meteoriciron", "steel"]
+},
+"R": {
+"type": "item",
+"code": "game:leather-plain",
+"quantity": 1,
+}
+},
+"width": 3,
+"height": 2,
+"name": "metal segment legs",
+"shapeless": false,
+"output": {
+"type": "item",
+"code": "tonwexp:armor-legs-segment-{metal}",
+"quantity": 1
+}
+}
+]

@@ -1,0 +1,148 @@
+﻿{
+	"code": "scutum",
+	"class": "ItemShieldAnMiTech",
+	"storageFlags": 257,
+	"behaviors": [{
+		"name": "GroundStorable",
+		"properties": {
+			"layout": "SingleCenter",
+			"wallOffY": 2,
+			"sprintKey": true,
+			"selectionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 1.56, "z2": 0.55 },
+			"collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 1.56, "z2": 0.55 }
+		}
+	}],
+	"attributes": {
+		"shield": {
+			"blockSound": "game:held/shieldblock",
+			"shieldStatsByMaterial": {
+				"wood": {
+					"ebony": {
+						"protectionChance": {
+							"passive": 0.10,
+							"active": 0.40
+						},
+						"damageAbsorption": {
+							"passive": 2.0,
+							"active": 4.0
+						}
+					},
+					"purpleheart": {
+						"protectionChance": {
+							"passive": 0.075,
+							"active": 0.35
+						},
+						"damageAbsorption": {
+							"passive": 1.5,
+							"active": 3.5
+						}
+					},
+					"oak": {
+						"protectionChance": {
+							"passive": 0.05,
+							"active": 0.30
+						},
+						"damageAbsorption": {
+							"passive": 1.0,
+							"active": 3.0
+						}
+					}
+				},
+				"metal": {
+					"iron": {
+						"protectionChance": {
+							"passive": 0.55,
+							"active": 0.90
+						},
+						"damageAbsorption": {
+							"passive": 3.5,
+							"active": 6.5
+						}
+					},
+					"meteoriciron": {
+						"protectionChance": {
+							"passive": 0.70,
+							"active": 0.95
+						},
+						"damageAbsorption": {
+							"passive": 4.5,
+							"active": 8.0
+						}
+					},
+					"steel": {
+						"protectionChance": {
+							"passive": 0.85,
+							"active": 1.0
+						},
+						"damageAbsorption": {
+							"passive": 6.0,
+							"active": 10.0
+						}
+					}
+				}
+			}
+		},
+		"groundStorageTransform": {
+			"rotation": { "x": -18, "y": 0, "z": 0 },
+			"origin": { "x": 0.5, "y": 1.1, "z": -1.7 },
+			"scale": 0.83
+		},
+		"durabilityGains": {
+			"wood": {
+				"ebony": 100,
+				"purpleheart": 80,
+				"oak": 50
+			},
+			"metal": {
+				"iron": 200,
+				"meteoriciron": 450,
+				"steel": 1000
+			}
+		},
+		"variantGroups": {
+			"wood": ["ebony", "purpleheart", "oak"],
+			"metal": ["iron", "meteoriciron", "steel"],
+			"color": ["red", "green"]
+		},
+		"texturePaths": {
+			"wood": "game:block/wood/debarked",
+			"metal": "game:item/tool/shield/metal",
+			"color": "tonwexp:entity/shield/scutum"
+		}
+	},
+	"shape": { "base": "tonwexp:item/scutum" },
+	"durability": 500,
+	"fpHandTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 10, "y": -180, "z": 0 },
+		"origin": { "x": 0.35, "y": 0.5, "z": 0.6 },
+		"scale": 2.6
+	},
+	"guiTransform": {
+		"translation": { "x": 7, "y": 3.1, "z": 0 },
+		"rotation": { "x": 29, "y": 17, "z": -40 },
+		"origin": { "x": 0.52, "y": 0.1, "z": 0.47 }
+	},
+	"groundTransform": {
+		"translation": { "x": 0, "y": -0.3, "z": 0 },
+		"rotation": { "x": -90, "y": 0, "z": 0 },
+		"origin": { "x": 0, "y": 0, "z": 0 },
+		"scale": 3.7
+	},
+	"tpHandTransformByType": {
+		"*": {
+			"translation": { "x": -0.28, "y": -0.23, "z": 0.47 },
+			"rotation": { "x": -13, "y": 2, "z": 111 },
+			"origin": { "x": 0, "y": 0, "z": 0 },
+			"scale": 0.65
+		}
+	},
+	"tpOffHandTransformByType": {
+		"*": {
+			"translation": { "x": -0.05, "y": -0.3, "z": -0.44 },
+			"rotation": { "x": 13, "y": 180, "z": 75 },
+			"origin": { "x": 0, "y": 0, "z": 0 },
+			"scale": 0.65
+		}
+	}
+}

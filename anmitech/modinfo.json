@@ -1,0 +1,11 @@
+{
+  "type": "code",
+  "modid": "tonwexp",
+  "name": "AnMiTech",
+  "authors": [ "Tonzag" , "DanaCraluminum", "surio", "Ape", "Chronolegionnaire"],
+  "description": "Several new weapons to diversify your gameplay",
+  "version": "2.0.0",
+  "RequiredOnClient": true,
+  "RequiredOnServer": true,
+  "dependency": {}
+}

@@ -1,0 +1,15 @@
+{
+"ingredient": {
+"type": "item",
+"code": "game:ingot-*",
+"name": "metal",
+"allowedVariants": ["steel" ]
+},
+"name": "Grosss",
+"output": { "type": "item", "code": "tonwexp:grossblade-{metal}"},
+"pattern": [[
+"##############",
+"_##########___",
+"______________"
+]]
+}

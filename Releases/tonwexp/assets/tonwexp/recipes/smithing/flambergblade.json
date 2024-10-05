@@ -1,0 +1,15 @@
+{
+"ingredient": {
+"type": "item",
+"code": "game:ingot-*",
+"name": "metal",
+"allowedVariants": ["steel" ]
+},
+"name": "Flamberg",
+"output": { "type": "item", "code": "tonwexp:flambergblade-{metal}"},
+"pattern": [[
+"__#_#_#_#_#___",
+"##############",
+"_#_#_#_#_#____"
+]]
+}

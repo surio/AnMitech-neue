@@ -1,0 +1,15 @@
+{
+"ingredient": {
+"type": "item",
+"code": "game:ingot-*",
+"name": "metal",
+"allowedVariants": [ "iron", "meteoriciron", "steel" ]
+},
+"name": "Saber",
+"output": { "type": "item", "code": "tonwexp:saberblade-{metal}"},
+"pattern": [[
+"____#######____",
+"_##############",
+"######_________"
+]]
+}
