@@ -1,8 +1,9 @@
 {
   "type": "code",
-  "modid": "tonwexp",
+  "modid": "tonwexp-neue",
   "name": "AnMiTech",
-  "authors": [ "Tonzag" , "DanaCraluminum", "surio", "Ape", "Chronolegionnaire"],
+  "authors": [ "Tonzag" , "DanaCraluminum", "surio", "xXx_Ape_xXx", "Chronolegionaire"],
+  "translators": [ "Tonzag", "Macoto Hino", "DeanBro", "zaldaryon", "tRead" ],
   "description": "Several new weapons to diversify your gameplay",
   "version": "2.0.0",
   "RequiredOnClient": true,

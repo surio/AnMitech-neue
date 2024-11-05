@@ -19,8 +19,8 @@
 				"wood": {
 					"ebony": {
 						"protectionChance": {
-							"passive": 0.10,
-							"active": 0.40
+							"passive": 0.03,
+							"active": 0.08
 						},
 						"damageAbsorption": {
 							"passive": 2.0,
@@ -29,8 +29,8 @@
 					},
 					"purpleheart": {
 						"protectionChance": {
-							"passive": 0.075,
-							"active": 0.35
+							"passive": 0.02,
+							"active": 0.05
 						},
 						"damageAbsorption": {
 							"passive": 1.5,
@@ -39,8 +39,8 @@
 					},
 					"oak": {
 						"protectionChance": {
-							"passive": 0.05,
-							"active": 0.30
+							"passive": 0.01,
+							"active": 0.03
 						},
 						"damageAbsorption": {
 							"passive": 1.0,
@@ -51,32 +51,32 @@
 				"metal": {
 					"iron": {
 						"protectionChance": {
-							"passive": 0.35,
-							"active": 0.45
+							"passive": 0.50,
+							"active": 0.82
 						},
 						"damageAbsorption": {
-							"passive": 2.5,
-							"active": 4.5
+							"passive": 4,
+							"active": 6
 						}
 					},
 					"meteoriciron": {
 						"protectionChance": {
-							"passive": 0.40,
-							"active": 0.50
+							"passive": 0.65,
+							"active": 0.90
 						},
 						"damageAbsorption": {
-							"passive": 3.0,
-							"active": 5.0
+							"passive": 5,
+							"active": 7.5
 						}
 					},
 					"steel": {
 						"protectionChance": {
-							"passive": 0.45,
-							"active": 0.55
+							"passive": 0.75,
+							"active": 0.99
 						},
 						"damageAbsorption": {
-							"passive": 3.5,
-							"active": 5.5
+							"passive": 6,
+							"active": 10
 						}
 					}
 				}
@@ -89,14 +89,14 @@
 		},
 		"durabilityGains": {
 			"wood": {
-				"ebony": 30,
-				"purpleheart": 20,
-				"oak": 15
+				"ebony": 110,
+				"purpleheart": 90,
+				"oak": 50
 			},
 			"metal": {
-				"iron": 60,
-				"meteoriciron": 90,
-				"steel": 120
+				"iron": 100,
+				"meteoriciron": 400,
+				"steel": 1100
 			}
 		},
 		"variantGroups": {
@@ -111,7 +111,7 @@
 		}
 	},
 	"shape": { "base": "tonwexp:item/scutum" },
-	"durability": 500,
+	"durability": 900,
 	"fpHandTransform": {
 		"translation": { "x": 0, "y": 0, "z": 0 },
 		"rotation": { "x": 10, "y": -180, "z": 0 },

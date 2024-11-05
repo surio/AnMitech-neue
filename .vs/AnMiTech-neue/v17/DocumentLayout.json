@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\local disk H\\Surio\\Projects[Desktop]\\VS-Mods\\AnMiTechRework\\AnMiTech-2.0.0\\AnMiTech-neue\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AF613215-922D-494F-8253-F6632C56B7ED}|AnMiTech-neue\\AnMiTech-neue.csproj|e:\\local disk h\\surio\\projects[desktop]\\vs-mods\\anmitechrework\\anmitech-2.0.0\\anmitech-neue\\anmitech-neue\\src\\modsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF613215-922D-494F-8253-F6632C56B7ED}|AnMiTech-neue\\AnMiTech-neue.csproj|solutionrelative:anmitech-neue\\src\\modsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF613215-922D-494F-8253-F6632C56B7ED}|AnMiTech-neue\\AnMiTech-neue.csproj|e:\\local disk h\\surio\\projects[desktop]\\vs-mods\\anmitechrework\\anmitech-2.0.0\\anmitech-neue\\anmitech-neue\\src\\itemshieldanmitech.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF613215-922D-494F-8253-F6632C56B7ED}|AnMiTech-neue\\AnMiTech-neue.csproj|solutionrelative:anmitech-neue\\src\\itemshieldanmitech.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF613215-922D-494F-8253-F6632C56B7ED}|AnMiTech-neue\\AnMiTech-neue.csproj|e:\\local disk h\\surio\\projects[desktop]\\vs-mods\\anmitechrework\\anmitech-2.0.0\\anmitech-neue\\anmitech-neue\\modinfo.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AF613215-922D-494F-8253-F6632C56B7ED}|AnMiTech-neue\\AnMiTech-neue.csproj|solutionrelative:anmitech-neue\\modinfo.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "modinfo.json",
+              "DocumentMoniker": "E:\\local disk H\\Surio\\Projects[Desktop]\\VS-Mods\\AnMiTechRework\\AnMiTech-2.0.0\\AnMiTech-neue\\AnMiTech-neue\\modinfo.json",
+              "RelativeDocumentMoniker": "AnMiTech-neue\\modinfo.json",
+              "ToolTip": "E:\\local disk H\\Surio\\Projects[Desktop]\\VS-Mods\\AnMiTechRework\\AnMiTech-2.0.0\\AnMiTech-neue\\AnMiTech-neue\\modinfo.json",
+              "RelativeToolTip": "AnMiTech-neue\\modinfo.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-20T06:29:37.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "modsystem.cs",
+              "DocumentMoniker": "E:\\local disk H\\Surio\\Projects[Desktop]\\VS-Mods\\AnMiTechRework\\AnMiTech-2.0.0\\AnMiTech-neue\\AnMiTech-neue\\src\\modsystem.cs",
+              "RelativeDocumentMoniker": "AnMiTech-neue\\src\\modsystem.cs",
+              "ToolTip": "E:\\local disk H\\Surio\\Projects[Desktop]\\VS-Mods\\AnMiTechRework\\AnMiTech-2.0.0\\AnMiTech-neue\\AnMiTech-neue\\src\\modsystem.cs",
+              "RelativeToolTip": "AnMiTech-neue\\src\\modsystem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T06:28:32.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ItemShieldAnMiTech.cs",
+              "DocumentMoniker": "E:\\local disk H\\Surio\\Projects[Desktop]\\VS-Mods\\AnMiTechRework\\AnMiTech-2.0.0\\AnMiTech-neue\\AnMiTech-neue\\src\\ItemShieldAnMiTech.cs",
+              "RelativeDocumentMoniker": "AnMiTech-neue\\src\\ItemShieldAnMiTech.cs",
+              "ToolTip": "E:\\local disk H\\Surio\\Projects[Desktop]\\VS-Mods\\AnMiTechRework\\AnMiTech-2.0.0\\AnMiTech-neue\\AnMiTech-neue\\src\\ItemShieldAnMiTech.cs",
+              "RelativeToolTip": "AnMiTech-neue\\src\\ItemShieldAnMiTech.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAywAQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T06:23:24.847Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
