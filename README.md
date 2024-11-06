@@ -10,4 +10,5 @@
 
 <h3> Upcomimg </h3>
 
-* Scutum - Roman legionnaire shield assets to be implemented. 
+* Scutum - Roman legionnaire shield assets to be implemented.
+* Update : Scutum was implemented into game in September/October 2024. 
